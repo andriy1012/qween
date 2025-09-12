@@ -22,7 +22,7 @@ HEADERS = {
 # ------------------------------------------------------------
 # 2️⃣  SETUP STREAMLIT
 # ------------------------------------------------------------
-st.set_page_config(page_title="Ai Chat ?", page_icon="🤖")
+st.set_page_config(page_title="AI Jawir", page_icon="🐧")
 st.title("🤴🏻 Andriy AKA Bearman")
 
 # -----  Session state untuk riwayat & placeholder -----
