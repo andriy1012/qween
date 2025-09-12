@@ -22,7 +22,7 @@ HEADERS = {
 # ------------------------------------------------------------
 # 2️⃣  SETUP STREAMLIT
 # ------------------------------------------------------------
-st.set_page_config(page_title="Qwen‑Coder Chat (Streamlit)", page_icon="🤖")
+st.set_page_config(page_title="Ai Chat ?", page_icon="🤖")
 st.title("🤖 Andriy AKA Bearman")
 
 # -----  Session state untuk riwayat & placeholder -----
@@ -113,7 +113,7 @@ async def stream_completion(messages):
 # ------------------------------------------------------------
 # 5️⃣  UI INPUT USER
 # ------------------------------------------------------------
-prompt = st.chat_input("Tulis pertanyaan atau kode …")   # Streamlit ≥1.24
+prompt = st.chat_input("Ketik sini WIRRR")   # Streamlit ≥1.24
 # (Jika versi lama, gunakan st.text_input + st.button)
 
 if prompt:
