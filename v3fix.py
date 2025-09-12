@@ -23,7 +23,7 @@ HEADERS = {
 # 2️⃣  SETUP STREAMLIT
 # ------------------------------------------------------------
 st.set_page_config(page_title="Qwen‑Coder Chat (Streamlit)", page_icon="🤖")
-st.title("🤖 Qwen 2.5‑Coder Chat – Demo Streamlit")
+st.title("🤖 Andriy AKA Bearman")
 
 # -----  Session state untuk riwayat & placeholder -----
 if "messages" not in st.session_state:
